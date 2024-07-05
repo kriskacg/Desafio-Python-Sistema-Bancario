@@ -1,25 +1,32 @@
-# Sistema Bancário em Python
+🏧# Sistema Bancário em Python
 
-✨Este é um projeto de sistema bancário simples desenvolvido em Python. O sistema permite o cadastro de usuários, criação de novas contas, realização de depósitos e saques, listar contas existentes e verificação das movimentações e saldo atualizado, apresentados no extrato.
+✨Este é um projeto de sistema bancário desenvolvido em Python em que, a medida que avanço no conhecimento da linguagem, realizo versões mais complexas e completas.
+O sistema permite:
+
+💵**Depósito**
+
+💸**Saque** (limitados em quantidade e valores).
+
+🧾**Visualizar Extrato** (apresenta as movimentações de depósitos e saques realizados, assim como o saldo atual da conta).
+
+🪪**Cadastro de clientes** (CPF, nome completo, data de nascimento e endereço).
+
+📜**Criação de contas** (Criação de conta vinculada a um cadastro de clientes existente. As contas são exclusivas para apenas um titular, vinculada ao CPF).
+
+📑**Listar contas existentes** (Possibilita a visualização das contas já cadastradas).
 
 
-## Funcionalidades🏧
 
 ### Versão 1:
+Modelagem do sistema com menu interativo, com as funcionalidades de depositar, sacar (com limitador de valor por saque e quantidade de saques) e visualizar o extrato.
 
-💵**Depósito:** Os usuários podem depositar dinheiro de suas contas.
 
-💸**Saque:** Os usuários podem retirar dinheiro de suas contas (limitados em quantidade e valores).
+### Versão 2:
+Modelagem do sistema aplicando a criação de funções, para as funcionalidades existentes na versão 1, e acrescentando as funções de cadatro de usuários (clientes), criação de contas e listar contas existentes.
 
-🧾**Verificar Extrato:** Os usuários podem verificar os depósito e saques realizados, assim como o saldo atual de sua conta.
 
-### Versão 2 (inclui as funções da versão 1, declaradas como funções):
-
-🪪**Cadastro de usuários:** Cadastro de usuário, informando os dados de CPF, nome completo, data de nascimento e endereço.
-
-📜**Criação de contas:** Criação de conta vinculada a um cadastro de usuário existente. As contas são exclusivas para apenas um titular, vinculada ao CPF.
-
-📑**Listar contas existentes:** É possível visualizar os dados das contas existentes como número da agência, número da conta corrente e nome do titular.
+### Versão 3:
+Modelagem do sistema bancário em POO, adicionando classes e armazenando os dados de clientes e contas bancárias em objetos.
 
 
 

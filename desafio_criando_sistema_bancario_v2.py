@@ -53,7 +53,7 @@ def sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques):
 
     return saldo, extrato
 
-def exibit_extrato(saldo, /, *, extrato):
+def exibir_extrato(saldo, /, *, extrato):
     print("\n=============== EXTRATO ===============")
     print("\nNão foram realizadas movimentações." if not extrato else extrato)
     print("\n", 25*"-", "\n")
@@ -85,7 +85,7 @@ def criar_conta(agencia, numero_conta, usuarios):
     usuario = filtrar_usuario(cpf, usuarios)
 
     if usuario:
-        print("\n=== Conta ciada com sucesso! ===")
+        print("\n=== Conta criada com sucesso! ===")
         return {"agencia": agencia, "numero_conta": numero_conta, "usuario": usuario}
     
     print("\n@@@ Usuário não encontrado, fluxo de criação de conta encerrado! @@@")
@@ -131,7 +131,7 @@ def main():
             )
 
         elif opcao == "3":
-            exibit_extrato(saldo, extrato=extrato)
+            exibir_extrato(saldo, extrato=extrato)
 
 
         elif opcao == "4":
